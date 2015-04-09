@@ -1,4 +1,4 @@
-#FPS - __F__unctional __P__rogrammming for __S__hader languages
+#FPS: *F*unctional *P*rogrammming for *S*hader languages
 
 Design a new language for shaders to run on GPU. During this process, 
 different (programming) language design concepts for Graphics and
@@ -14,7 +14,7 @@ The development will be done in following phases:
    Choosing a kernel language to start with. This will form the essential
    core of the language. There are some options which can be used. Like the
    core language desribed [here](http://research.microsoft.com/en-us/um/people/simonpj/Papers/pj-lester-book/).
-   Or the [FL language](https://en.wikipedia.org/wiki/FL_(programming_language) used
+   Or the [FL language](https://en.wikipedia.org/wiki/FL_programming_language) used
    in Tubrak's Design Concepts in Programming Languages book.
    Some other options like [*Tiger*](https://www.lrde.epita.fr/~akim/ccmp/tiger.html) 
    programming language defined in Appel's Modern Compiler Implementation. 
@@ -42,7 +42,8 @@ The development will be done in following phases:
 5. Reference examples
 
    These are examples which will be representative set of GLSL and CL shaders
-   which will be used to implement in the new Language.
+   which will be used to implement in new Language. The Compiler codegen will
+   be compared with Reference implementation's SPIR-V format.
 
 
 ## Motivation
